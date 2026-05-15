@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HABIT — Criar Conta</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <header class="site-header" role="banner">
+    <div class="container">
+      <span class="site-logo">HABIT</span>
+      <nav class="site-nav" aria-label="Navegação principal">
+        <a href="index.html">Início</a>
+        <a href="#">Páginas</a>
+        <a href="destaques.html">Destaques</a>
+        <a href="assinar.html">Assinar</a>
+        <a href="admin-categorias.html" class="nav-admin">Admin</a>
+      </nav>
+      <div class="header-search">
+        <label for="search-cc" class="sr-only">Buscar</label>
+        <input type="search" id="search-cc" placeholder="Buscar..." aria-label="Buscar conteúdo" />
+        <button type="button" class="btn-outline-sm">Buscar</button>
+        <a href="entrar.html" class="btn-outline-sm">Entrar</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="page-main" id="main-content">
+    <div class="container">
+      <div class="form-page-wrapper">
+        <div class="form-box">
+          <h1>Criar Conta</h1>
+
+          <label for="nome-cc" class="sr-only">Nome completo</label>
+          <input
+            type="text"
+            id="nome-cc"
+            class="form-field"
+            placeholder="Nome completo"
+            autocomplete="name"
+            required
+          />
+
+          <label for="email-cc" class="sr-only">E-mail</label>
+          <input
+            type="email"
+            id="email-cc"
+            class="form-field"
+            placeholder="E-mail"
+            autocomplete="email"
+            required
+          />
+
+          <label for="senha-cc" class="sr-only">Senha</label>
+          <input
+            type="password"
+            id="senha-cc"
+            class="form-field"
+            placeholder="Senha"
+            autocomplete="new-password"
+            required
+          />
+
+          <label for="confirma-senha-cc" class="sr-only">Confirmar senha</label>
+          <input
+            type="password"
+            id="confirma-senha-cc"
+            class="form-field"
+            placeholder="Confirmar senha"
+            autocomplete="new-password"
+            required
+          />
+
+          <div class="form-checkbox">
+            <input type="checkbox" id="terms-cc" name="terms" required />
+            <label for="terms-cc">
+              Concordo com os termos e a
+              <a href="#">política de privacidade</a>
+            </label>
+          </div>
+
+          <button type="button" class="btn-primary">Cadastrar</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <nav class="footer-links" aria-label="Links do rodapé">
+      <a href="#">Instagram</a>
+      <a href="#">Work</a>
+      <a href="#">Bags</a>
+      <a href="#">Lamp</a>
+      <a href="#">Books</a>
+    </nav>
+    <p class="footer-copy">© 2025 Meu Site • <a href="#">Meu site</a></p>
+  </footer>
+
+</body>
+</html>

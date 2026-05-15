@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HABIT — Início</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header" role="banner">
+    <div class="container">
+      <span class="site-logo">HABIT</span>
+      <nav class="site-nav" aria-label="Navegação principal">
+        <a href="index.html">Início</a>
+        <a href="#">Páginas</a>
+        <a href="destaques.html">Destaques</a>
+        <a href="assinar.html">Assinar</a>
+        <a href="admin-categorias.html" class="nav-admin">Admin</a>
+      </nav>
+      <div class="header-search">
+        <label for="search-home" class="sr-only">Buscar</label>
+        <input type="search" id="search-home" placeholder="Buscar..." aria-label="Buscar conteúdo" />
+        <button type="button" class="btn-outline-sm" aria-label="Executar busca">Buscar</button>
+        <a href="entrar.html" class="btn-outline-sm">Entrar</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- CONTEÚDO PRINCIPAL -->
+  <main class="page-main" id="main-content">
+    <div class="container">
+
+      <!-- HERO -->
+      <section class="hero" aria-label="Banner principal">
+        <div class="hero-text">
+          <h1 class="hero-title">Navegue por tópicos de interesse</h1>
+          <p class="hero-subtitle">Descubra conteúdos por categorias, posts em destaque e as escolhas do editor.</p>
+          <div class="hero-actions">
+            <a href="#categorias" class="btn-primary">Explorar categorias</a>
+            <a href="assinar.html" class="btn-secondary">Assine a newsletter</a>
+          </div>
+        </div>
+        <div class="hero-img img-placeholder img-placeholder--hero" aria-hidden="true" role="img" aria-label="Imagem ilustrativa"></div>
+      </section>
+
+      <!-- CATEGORIAS POPULARES -->
+      <section aria-labelledby="pop-cats-title">
+        <h2 class="section-title" id="pop-cats-title">Categorias Populares</h2>
+        <div class="popular-cats" role="list">
+          <article class="popular-cat-item" role="listitem">
+            <span>Work</span>
+          </article>
+          <article class="popular-cat-item" role="listitem">
+            <span>Books</span>
+          </article>
+          <article class="popular-cat-item" role="listitem">
+            <span>Techno</span>
+          </article>
+        </div>
+      </section>
+
+      <!-- TODAS AS CATEGORIAS -->
+      <section id="categorias" aria-labelledby="all-cats-title">
+        <h2 class="section-title" id="all-cats-title">Todas as Categorias</h2>
+        <nav class="all-cats" aria-label="Todas as categorias">
+          <a href="listagem.html" class="cat-cell">Negócios</a>
+          <a href="listagem.html" class="cat-cell">Techno</a>
+          <a href="listagem.html" class="cat-cell">Produtividade</a>
+          <a href="listagem.html" class="cat-cell">Filmes</a>
+          <a href="listagem.html" class="cat-cell">Lifestyle</a>
+          <a href="listagem.html" class="cat-cell">Educação</a>
+          <a href="listagem.html" class="cat-cell">Mailing</a>
+          <a href="listagem.html" class="cat-cell">eCommerce</a>
+          <a href="listagem.html" class="cat-cell">Alimentação</a>
+          <a href="listagem.html" class="cat-cell">Social</a>
+        </nav>
+      </section>
+
+      <!-- POSTAGENS EM DESTAQUE + ESCOLHAS DO EDITOR -->
+      <section class="featured-area" aria-label="Postagens em destaque e escolhas do editor">
+        <div>
+          <h2 class="section-title">Postagens em Destaque</h2>
+          <div class="featured-posts">
+
+            <article class="post-card-horizontal">
+              <div class="img-placeholder img-placeholder--sm" role="img" aria-label="Thumbnail do post"></div>
+              <div>
+                <p class="post-meta">31 Jul 2025 • Destaque</p>
+                <h3>Erros de Design que Todos Devem Evitar</h3>
+                <p class="read-time">3 min de leitura</p>
+              </div>
+            </article>
+
+            <article class="post-card-horizontal">
+              <div class="img-placeholder img-placeholder--sm" role="img" aria-label="Thumbnail do post"></div>
+              <div>
+                <p class="post-meta">31 Jul 2025 • Destaque</p>
+                <h3>As Maiores Empresas por Receita</h3>
+              </div>
+            </article>
+
+          </div>
+        </div>
+
+        <aside aria-label="Escolhas do Editor">
+          <h3 class="section-title">Escolhas do Editor</h3>
+          <ul class="editor-picks">
+            <li>O uso negativo da internet</li>
+            <li>O segredo do brainstorm</li>
+            <li>Escalar para pequenos negócios</li>
+            <li>O futuro do trabalho remoto</li>
+          </ul>
+        </aside>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <nav class="footer-links" aria-label="Links do rodapé">
+      <a href="#">Instagram</a>
+      <a href="#">Work</a>
+      <a href="#">Bags</a>
+      <a href="#">Lamp</a>
+      <a href="#">Books</a>
+    </nav>
+    <p class="footer-copy">© 2025 Meu Site • <a href="#">Meu site</a></p>
+  </footer>
+
+</body>
+</html>
